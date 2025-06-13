@@ -73,64 +73,119 @@
 </head>
 <body>
 
-<footer class="footer">
+<section style="background: linear-gradient(135deg, #f8bbd0, #e1bee7); padding: 60px 20px; position: relative; overflow: hidden;">
   <div class="container">
-    <div class="row">
-      <!-- Left half -->
-      <div class="col-md-6 mb-4">
-        <div class="logo">
-          <img src="images/logo.png" alt="Company Logo">
-        </div>
-        <p><strong>Moneytree Realty Services Limited</strong><br>
-        123 Real Estate Tower, Sector 45, Gurugram, Haryana - 122003</p>
-
-        <div class="social mt-3">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </div>
-      </div>
-
-      <!-- Right half -->
-      <div class="col-md-6">
-        <div class="row">
-          <div class="col-6 footer-links">
-            <a href="#">Home</a>
-            <a href="#">Contact Us</a>
-            <a href="#">Latest Updates</a>
-            <a href="#">Terms & Conditions</a>
-            <a href="#">Career</a>
-          </div>
-          <div class="col-6 footer-links">
-            <a href="#">Our Services</a>
-            <a href="#">About Us</a>
-            <a href="#">Sitemap</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Invest With Us</a>
-          </div>
-        </div>
-      </div>
+    <!-- Section Title -->
+    <div class="text-center mb-5" style="position: relative;">
+      <div style="font-size: 90px; font-weight: 900; color: rgba(233,30,99,0.05); position: absolute; top: -20px; left: 50%; transform: translateX(-50%);">FEEDBACK</div>
+      <h2 style="font-size: 36px; color: #ad1457; font-weight: bold; position: relative;">CUSTOMER FEEDBACK</h2>
+      <p style="font-size: 18px; color: #880e4f; position: relative;">What Happy Clients Say</p>
     </div>
 
-    <!-- Bottom line -->
-    <div class="row footer-bottom mt-4">
-      <div class="col-md-8">
-        <p>© 2025, All rights reserved. <strong>Moneytree Realty Services Limited</strong><br>
-        <strong>RERA Numbers:</strong><br>
-        UP : UPRERAAGT25048<br>
-        Haryana : RC/HARERA/GGM/2569/2164/2024/282<br>
-        Maharashtra : A041172401062
-        </p>
+    <div class="row">
+      <!-- Review Summary Card -->
+      <div class="col-lg-4 mb-4">
+        <div style="background: #fce4ec; padding: 30px; border-radius: 12px; box-shadow: 0 6px 20px rgba(173,20,87,0.15); text-align: center;">
+          <div style="font-size: 28px; color: #ec407a; animation: floatStars 2s infinite alternate;">★★★★★</div>
+          <p style="font-size: 18px; color: #ad1457; margin-top: 10px;">Customer Reviews <strong>30,000+</strong></p>
+          <div class="d-flex flex-wrap justify-content-center mt-3" style="gap: 10px;">
+            <div class="circle-initial">S</div>
+            <div class="circle-initial">K</div>
+            <div class="circle-initial">D</div>
+            <div class="circle-initial">R</div>
+            <div class="circle-initial">30k</div>
+          </div>
+        </div>
       </div>
-      <div class="col-md-4 text-md-end mt-3 mt-md-0">
-        <p><strong>+91-9732 300 007</strong><br>
-        <a href="mailto:customercare@moneytreerealty.com">customercare@moneytreerealty.com</a></p>
+
+      <!-- Testimonial Cards -->
+      <div class="col-lg-8">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="testimonial-card slide-in-left">
+              <div class="stars">★★★★★</div>
+              <p>"CSS Infracon was fantastic. The team was friendly, knowledgeable, and truly dedicated to helping me find the right property."</p>
+              <h5>Sanjay Arora</h5>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="testimonial-card slide-in-right">
+              <div class="stars">★★★★★</div>
+              <p>"The CSS Infracon team was patient and thorough. They made my property buying journey smooth and stress-free."</p>
+              <h5>Krishna Chaubey</h5>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="testimonial-card slide-in-left">
+              <div class="stars">★★★★★</div>
+              <p>"Professional, prompt, and very courteous — CSS Infracon exceeded my expectations in every way."</p>
+              <h5>Diksha Bansal</h5>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="testimonial-card slide-in-right">
+              <div class="stars">★★★★★</div>
+              <p>"The team went above and beyond to help me find my dream home. Highly recommend their services!"</p>
+              <h5>Ravi Mehrotra</h5>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</footer>
+</section>
+
+<style>
+.circle-initial {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #f06292, #ec407a);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonial-card {
+  background: #fce4ec;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(173,20,87,0.1);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(173,20,87,0.2);
+}
+.stars {
+  color: #ff7043;
+  font-size: 20px;
+  margin-bottom: 8px;
+  animation: floatStars 2s infinite alternate;
+}
+@keyframes floatStars {
+  from { transform: translateY(0); }
+  to { transform: translateY(-5px); }
+}
+.slide-in-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: slideInLeft 1s forwards;
+}
+.slide-in-right {
+  opacity: 0;
+  transform: translateX(50px);
+  animation: slideInRight 1s forwards;
+}
+@keyframes slideInLeft {
+  to { opacity: 1; transform: translateX(0); }
+}
+@keyframes slideInRight {
+  to { opacity: 1; transform: translateX(0); }
+}
+</style>
+  
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

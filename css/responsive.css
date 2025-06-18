@@ -7,3 +7,21 @@ body {
   margin: auto;
   padding: 0 1rem;
 }
+
+body {
+  overflow-x: hidden;
+}
+.navbar ul {
+  flex-direction: column;
+  display: none;
+  background: #fff;
+}
+.navbar ul.active {
+  display: flex;
+}
+.navbar .menu-toggle {
+  display: block;
+}
+h1 {
+  font-size: clamp(24px, 5vw + 1rem, 48px);
+}
